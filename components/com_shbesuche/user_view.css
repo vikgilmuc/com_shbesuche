@@ -1,0 +1,79 @@
+table#pbbooking {
+	width:80%;
+}
+
+table#pbbooking td,
+table#pbbooking th {
+	height:2em;
+	padding:1em;
+	text-align:center;
+	line-height:2em;
+}
+
+
+table.pbbooking-data-table {
+	border: 0px;
+}
+
+table.pbbooking-data-table tr,
+table.pbbooking-data-table td,
+table.pbbooking-data-table th {
+	border:0px;
+}
+
+table.pbbooking-data-table td,
+table.pbbooking-data-table th {
+	padding:5px;
+}
+
+
+
+.error-message {
+	border:1px solid red;
+	background-color:#FBE6F2;
+	width:250px;
+	margin: 5px auto 5px auto;
+	padding:5px;
+	text-align:center;
+}
+
+td.selected_day {
+	background-color:yellow;
+}
+
+/* new classes in 2.2 */
+
+.error-label {
+	color:red;
+}
+
+td.fully-booked,
+td.pbbooking-busy-cell {
+	background-color:red;
+	color:white;
+}
+
+/* a new class to handle long calendars */
+table.long-cal td {
+	height:28px;
+}
+
+#pbbooking-timeslot-listing > table,
+#pbbooking-timeslot-listing > table tbody tr,
+#pbbooking-timeslot-listing > table tbody td {
+	border:0px solid;
+}
+
+/*new css for 2.3 */
+.pbbooking-notifications-active {
+	background-color: #C9F3C4;
+	border:1px solid green;
+	padding:10px;
+	margin:10px;
+}
+
+
+input.error-field {
+	border: 2px solid red;
+	background-color: #ffff66;
+}

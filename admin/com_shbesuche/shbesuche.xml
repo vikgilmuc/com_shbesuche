@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"
+           version="2.5.0"
+           method="upgrade">
+
+	<name>com_shbesuche</name>
+	<creationDate>Juny 2014</creationDate>
+	<copyright>(c)2014 victorgil.name - All rights reserved</copyright>
+	<authorUrl>victorgil.name</authorUrl>
+	<license>GNU/GPL</license>
+	<version>0.1.0</version>
+
+	
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>shbesuche.php</filename>
+	</files>
+
+	<administration>
+		<menu>shbesuche</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>shbesuche.php</filename>
+			<folder>sql</folder>
+		</files>
+		
+		<languages>
+		<language tag="en-GB">languages/admin/en-GB.com_shbesuche.ini</language>
+		<language tag="en-GB">languages/admin/en-GB.com_shbesuche.sys.ini</language>
+	</languages>
+	</administration>
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/install.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+</extension>
